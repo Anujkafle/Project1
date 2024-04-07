@@ -1,0 +1,269 @@
+main {
+    height: 333vh;
+    width: 85%;
+    margin: auto;
+    margin-top: 2em;
+    margin-bottom: 2em;
+
+}
+
+.first_section {
+    width: 100%;
+    height: 50vh;
+
+    display: flex;
+    margin-bottom: 1em;
+}
+
+.first_section .section_detail {
+    width: 30%;
+    height: 100%;
+
+}
+
+.section_detail .title {
+    width: 80%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-left: 2px solid black;
+    margin: auto;
+    box-sizing: border-box;
+
+}
+
+.section_detail .title span {
+    font-weight: lighter;
+    font-size: 1.2em;
+    margin-left: .5em;
+
+}
+
+.section_detail .title p {
+    font-weight: bolder;
+    margin: 0;
+    padding: 0;
+    margin-left: .5em;
+}
+
+.section_detail .in_depth {
+    height: 80%;
+    width: 80%;
+    margin: auto;
+    text-align: justify;
+}
+
+.first_section img {
+    height: 100%;
+    width: 70%;
+    object-fit: cover;
+    transition: all ease-in-out 0.2s;
+    border-radius: 5px;
+}
+
+
+.section2 {
+    width: 100%;
+    height: 45vh;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2em;
+}
+
+.section2 .img1 {
+    height: 100%;
+    width: 49.8%;
+    object-fit: cover;
+    aspect-ratio: 1/1;
+    transition: all ease-in-out 0.2s;
+
+    border: none;
+    border-radius: 5px;
+}
+
+.section2 .img1:hover {
+
+    border: none;
+}
+
+.section2 .img2 {
+    height: 100%;
+    width: 50%;
+    object-fit: cover;
+    aspect-ratio: 1/1;
+    transition: all ease-in-out 0.2s;
+
+    border: none;
+    border-radius: 5px;
+}
+
+.section2 .img2:hover {
+
+    border: none;
+}
+
+.section3 {
+    width: 100%;
+    height: 50vh;
+    margin: auto;
+
+}
+
+.section3 .title {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-left: 2px solid black;
+    margin: auto;
+    box-sizing: border-box;
+    margin-left: 1em;
+}
+
+.section3 .title span {
+    font-weight: lighter;
+    font-size: 1.2em;
+    margin-left: .5em;
+
+}
+
+.section3 .title p {
+    font-weight: bolder;
+    margin: 0;
+    padding: 0;
+    margin-left: .5em;
+}
+
+.section3 .section3_detail {
+    height: max-content;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.section3 .section3_detail p {
+    font-size: larger;
+    margin: 1em;
+    text-align: justify;
+}
+
+.section3_img {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 2em;
+}
+
+.section3_img .top_img {
+    height: 59%;
+    width: 100%;
+}
+
+.section3_img .top_img img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+    transition: all ease-in-out 0.2s;
+    ;
+}
+
+
+
+
+.section3 .sub_img {
+    height: 40%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.section3_img .sub_img img {
+    height: 100%;
+    width: 33%;
+    border-radius: 5px;
+    transition: all ease-in-out 0.2s;
+    ;
+}
+
+
+
+.section4 {
+    width: 100%;
+    height: 50vh;
+
+    display: flex;
+    margin-bottom: 1em;
+}
+
+.section4 .section_detail {
+    width: 30%;
+    height: 100%;
+
+}
+
+.section_detail .title {
+    width: 80%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-left: 2px solid black;
+    margin: auto;
+    box-sizing: border-box;
+
+}
+
+.section_detail .title span {
+    font-weight: lighter;
+    font-size: 1.2em;
+    margin-left: .5em;
+
+}
+
+.section_detail .title p {
+    font-weight: bolder;
+    margin: 0;
+    padding: 0;
+    margin-left: .5em;
+}
+
+.section_detail .in_depth {
+    height: 80%;
+    width: 80%;
+    margin: auto;
+    text-align: justify;
+}
+
+.section4 img {
+    height: 100%;
+    width: 70%;
+    object-fit: cover;
+    transition: all ease-in-out 0.2s;
+    ;
+    border-radius: 5px;
+}
+
+
+
+.section5 {
+    width: 100%;
+    height: 45vh;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2em;
+}
+
+.section5 img {
+    height: 100%;
+    width: 33%;
+    object-fit: cover;
+    aspect-ratio: 1/1;
+    transition: all ease-in-out 0.2s;
+
+    border: none;
+    border-radius: 5px;
+}

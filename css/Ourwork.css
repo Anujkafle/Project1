@@ -1,0 +1,329 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    scroll-padding-top: 2rem;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Merriweather', sans-serif;
+}
+
+.pic {
+    width: 100%;
+    min-height: 55vh;
+    background-image: url("img/2.jpg");
+    background-size: cover;
+    background-position: center;
+    object-fit: fill;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.our-work {
+    height: 35vh;
+    width: 85%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5vh;
+}
+
+.sector {
+    align-items: center;
+    width: 100%;
+    height: 35vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.content1 {
+    width: 60%;
+    height: 35vh;
+
+}
+
+.content2 {
+    width: 35%;
+    height: 35vh;
+}
+
+.title1 {
+    width: 100%;
+    height: 5vh;
+}
+
+.paragraph1 {
+    width: 100%;
+    height: 28vh;
+}
+
+.title1 h1 {
+    color: #00AAA8;
+}
+
+p {
+    margin-top: 15px;
+}
+
+.image1 {
+    width: 100%;
+    height: 35vh;
+}
+
+img {
+    width: 100%;
+    height: 35vh;
+}
+
+.content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.content3 {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.number {
+    height: 8vh;
+    width: 10%;
+
+}
+
+.text {
+    height: 100%;
+    width: 85%;
+}
+
+.content4 {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.number {
+    height: 8vh;
+    width: 10%;
+    color: #00AAA8;
+
+
+}
+
+.text {
+    height: 100%;
+    width: 85%;
+}
+
+.content5 {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.number {
+    height: 8vh;
+    width: 10%;
+
+}
+
+.number h1 {
+    text-align: center;
+}
+
+.text {
+    height: 100%;
+    width: 85%;
+}
+
+.what-we-do-content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.image2 {
+    width: 35%;
+    height: 100%;
+}
+
+.image2 img {
+    width: 100%;
+    height: 100%;
+}
+
+.what-we-do {
+    height: 100%;
+    width: 60%;
+}
+
+.title2 {
+    height: 15%;
+    width: 100%;
+}
+
+.paragraph2 {
+    width: 100%;
+    height: 70%;
+}
+
+.paragraph2 ul li {
+    list-style-type: disc;
+    margin-top: 2em;
+}
+
+.our-work1 {
+    height: 60vh;
+    width: 85%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5vh;
+}
+
+.latest-update {
+    width: 100%;
+    height: 100%;
+}
+
+.title3 {
+    width: 100%;
+    height: 15%;
+    text-align: center;
+}
+
+.latest-content {
+    width: 100%;
+    height: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.content6 {
+    width: 30%;
+    height: 100%;
+}
+
+.content6 img {
+    height: 100%;
+}
+
+.content7 {
+    width: 30%;
+    height: 100%;
+}
+
+.content7 img {
+    height: 100%;
+}
+
+.content8 {
+    width: 30%;
+    height: 100%;
+}
+
+.content8 img {
+    height: 100%;
+}
+
+.description {
+    width: 100%;
+    height: 25%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.description1 {
+    width: 30%;
+    height: 100%;
+}
+
+.description2 {
+    width: 30%;
+    height: 100%;
+}
+
+.description3 {
+    width: 30%;
+    height: 100%;
+}
+
+.our-work2 {
+    height: 50vh;
+    width: 85%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5vh;
+}
+
+.program {
+    width: 100%;
+    height: 100%;
+}
+
+.program-title {
+    width: 100%;
+    height: 10%;
+    text-align: center;
+}
+
+.program-image {
+    width: 100%;
+    height: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.program-image1 {
+    width: 40%;
+    height: 100%;
+}
+
+.program-description {
+    width: 59%;
+    height: 100%;
+}
+
+.program-description a {
+    color: #FF9F45;
+}
+
+.program-image1 img {
+    height: 100%;
+}
+
+.our-work3 {
+    height: 50vh;
+    width: 85%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2vh;
+}
+
+.programs {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.program-images {
+    width: 40%;
+    height: 100%;
+}
+
+.program-image2 img {
+    height: 100%;
+    width: 100%;
+}
